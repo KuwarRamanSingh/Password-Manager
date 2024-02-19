@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li:hover {
+    color: lightgreen;
+    margin: 0px 13px;
+    font-size: large;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0px 13px;
+}
+
+table,
+td,
+tr {
+    border: 2px solid grey;
+    border-collapse: collapse;
+    padding: 0px 36px;
+    color: white;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+
+h1{
+    color: white;
+}
+
+h2,h3 {
+    margin: 23px;
+    margin: 32px -2px;
+    color: black;
+}
+
+
+
+.btn {
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+.btnsm {
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid grey;
+    border-radius: 3px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+#alert {
+    display: none;
+    color: black;
+}
+
+body {
+    background-image: url('password\ final.gif');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: 7cm 0cm;
+    color: white;
+}
+
+ul > li > a {
+    /* color: green; */
+    text-decoration: none;
+    margin: inherit;
+}
+
+input {
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover {
+    color: lightgreen;
+}
+
+.btnsm:hover {
+    color: lightgreen;
+}
+
+p{
+    margin: 35px;
+    margin-left: 2px;
+    word-spacing: 3px ;
+}
+
+ul > li > a > b{
+    background: green;
+    padding: 5px 11px;
+    border-radius: 5px;
+}
+
+ul > li > a > b:hover{
+    color: lightgreen;
+    
+}

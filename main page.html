@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@RPV-Let's Begin</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+        <div class="logo">@RPV</div>
+        <ul>
+            <li><a href="pricing page.html"> <b>Pricing</b></a></li>
+            <li><a href="T&C page.html"> <b>T & C</b></a></li>
+            <li><a href="contact.html"> <b>Contact Us</b></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>RamanPassVault</h1>
+        <p>We're delighted to have you here! Your digital security is our top priority, and we're here to make managing your passwords a breeze. Whether you're a seasoned user or just getting started, we've got your back.So commence the initial setup of your password by completing the requested credentials below and establishing a personalized PIN. This will enable convenient access to your password for future use. To retrieve the password, simply click on the copy icon and paste it using the Ctrl+V command on your PC, or utilize the copy function on your smartphone after setting up your first password. <br> <br> <b>Let us commence this process......</b> </p>
+        <!-- <h2>Your Password Status(<span id="alert">Copied</span>)</h2> -->
+        <!-- <p class="alert">Your password has been copied</p> -->
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+
+        <h2><div>Add a Password</div></h2>
+        <form action="/submit" method="post">
+            <!-- Text input for website -->
+            <label for="website">Website:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:&nbsp;&nbsp;</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+
+            <!-- Password input -->
+            <label for="password">Password:&nbsp;&nbsp;&nbsp;</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <!-- Submit button -->
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+     <!-- below line is code for including crypto js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- if using for offline purpose then below is code(before using comment out line 59 and 60, and uncomment just below line) -->
+    <!-- <script src="script(offline).js"></script> -->
+</body>
+
+</html>

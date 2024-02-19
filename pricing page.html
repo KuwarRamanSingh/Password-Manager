@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPV-Pricing</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: lightgrey; */
+            /* background-image: url('password gif.gif'); */
+            background-image: url('password\ final.gif');
+            background-size: cover;
+            background-position: 7cm 0cm;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: black;
+            border-radius: 24px;
+            padding: 10px;
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+        }
+
+        .plan {
+            border: dashed;
+            border-radius: 65px;
+            border-width: thick;
+            padding: 40px 30px;
+            margin: 10px;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+            /* Added transition effect */
+            background: black;
+            box-shadow: -7px -7px black;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
+            /* Scale up when hovering */
+        }
+
+        .plan h2 {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .plan p {
+            color: #2f2d2d;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .plan .price {
+            font-size: 28px;
+            color: lightgreen;
+            margin-bottom: 30px;
+        }
+
+        .plan button {
+            background-color: green;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .plan button:hover {
+          color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Choose Your Plan (monthly based)</h1>
+        <div class="pricing-table">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p>For individuals</p>
+                <p>Basic features</p>
+                <div class="price">$1<br>(or ₹83)</div>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan">
+                <h2>Premium</h2>
+                <p>For families</p>
+                <p>Advanced features</p>
+                <div class="price">$5<br>(or ₹415)</div>
+                <button>Select Plan</button>
+            </div>
+            <div class="plan">
+                <h2>Business</h2>
+                <p>For teams</p>
+                <p>Enterprise features</p>
+                <div class="price">$10<br>(or ₹831)</div>
+                <button>Select Plan</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
